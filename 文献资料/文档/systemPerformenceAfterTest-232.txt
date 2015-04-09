@@ -1,0 +1,1 @@
+vmstat 6 200 | (while read -r line; do echo "$(date +'%Y-%m-%d %H:%M:%S'): $line"; done) > /usr/IBM/WebSphere/AppServer/profiles/AppSrv/jvm-agents/systemPerformenceDuringTest.txt
